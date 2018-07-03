@@ -31,3 +31,13 @@ h1{
   font-weight: 500;
 }
 
+.back-top-top{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 10;
+}
+.back-top-top .glyphicon {
+  font-size: 35px;
+  color: #333333;
+}
