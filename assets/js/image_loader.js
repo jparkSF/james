@@ -11,14 +11,14 @@ $(document).ready(function(){
   const totalNumOfImage = 13
   const mediaElement = $('.medias')
   
-  for (let i = 1; i <= 13; i++){
+  for (let i = totalNumOfImage; i >= 1; i--){
     const padCounter = i.toString().padStart(3,'0')
     
     mediaElement.append(
       `
         <div class="media">
           <div class="inner-content">
-            <img class="fade-in" src="https://s3-us-west-1.amazonaws.com/james-web-content/test/images/flowers/${padCounter}.jpg" style="display: block;">
+            <img class="fade-in" src="assets/img/flowers/${padCounter}.jpg" style="display: block;">
             <span>${imageData[padCounter] === undefined ? "" : imageData[padCounter]}</span>
           </div>
         </div>
@@ -39,5 +39,3 @@ $(document).ready(function(){
 
   
 })
-
-console.log(imageData)
