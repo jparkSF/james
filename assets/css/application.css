@@ -22,6 +22,7 @@ body {
   width: 555px;
   max-width: 100%;
   margin: auto;
+  margin-bottom:12px;
 }
 
 .inner-content{
@@ -41,4 +42,11 @@ h1{
 .back-top-top .glyphicon {
   font-size: 35px;
   color: #333333;
+}
+
+.mail {
+  color: black;
+}
+.mail:hover {
+  color: black;
 }
